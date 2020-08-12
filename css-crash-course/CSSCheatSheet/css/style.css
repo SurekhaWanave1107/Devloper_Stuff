@@ -1,0 +1,103 @@
+body{
+ background-color:#f4f4f4;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 1.6em;
+margin:0
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
+
+a:hover{
+ color: rgb(150, 133, 133);
+}
+
+a:active{
+ color: green;
+}
+a:visited{
+ color:black
+}
+
+.box-1{
+ background-color: black;
+ color: white;
+  padding: 10px;
+  border: 5px solid red;
+  margin: 20px 0;
+ }
+
+ .container{
+  width: 80%;
+  margin: auto;
+  
+
+ }
+
+ .box-1 h1{
+  font-weight:800;
+  font-family: Tahoma;
+  font-style: italic;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+  text-decoration: underline;
+  text-transform: uppercase;
+ }
+
+ .box-2{
+  margin-top:50px;
+  border:2px gray dotted;
+  padding: 20px 10px 20px 10px;
+
+ }
+
+ .categories{
+  margin-top: 50px;
+  border: 1px solid gray;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  
+ }
+
+ .categories h1{
+  text-align: center;
+  font-family: Tahoma;
+  color: #333;
+ }
+ .categories ul{
+  list-style: url('../images/check-mark.jpg');
+  padding: 30px;
+  text-decoration:none;
+  
+ }
+
+ .categories li{
+ border-bottom: 1.5px gray solid;
+ padding-bottom:5px ;
+ }
+
+ .my-form{
+  margin: 30px;
+ }
+
+ .my-form .form-group{
+  padding-bottom: 15px;
+ }
+ .my-form label{
+display: block;  
+ }
+
+ .my-form input[type="text"]{
+  padding: 5px;
+  width: 100%;
+ }
+ .my-form input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width
+ }

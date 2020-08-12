@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Portfolio of Marco</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>This is the best quiz on the internet!</h1>
+    <form id="quiz" name="quiz">
+      <p>What is the capital of India?</p>
+      <input type="text" id="textbox" name="question1" />
+      <span class="fa fa-lg fa-eye field-icon toggle-password"></span>
+
+      <p>Select the component which is NOT part of Selenium suite.</p>
+      <input type="radio" id="mc" name="question2" value="SeleniumGrid" />
+      SeleniumGrid <br />
+      <input type="radio" id="mc" name="question2" value="Selenium Web" />
+      Selenium Web <br />
+      <input type="radio" id="mc" name="question2" value="Selenium IDE" />
+      Selenium IDE <br />
+
+      <p>Select the name which is NOT the type of the locaters.</p>
+      <input type="radio" id="mc" name="question3" value="ID" />ID
+      <br />
+      <input type="radio" id="mc" name="question3" value="Name" />Name <br />
+      <input type="radio" id="mc" name="question3" value="Password" />Password
+      <br />
+      <input type="radio" id="mc" name="question3" value="Link Text" />Link Text
+      <br />
+
+      <p>Is Web Driver a component of the Selenium?</p>
+      <input type="radio" id="mc" name="question4" value="Yes" />Yes
+      <br />
+      <input type="radio" id="mc" name="question4" value="No" />No <br />
+
+      <p>Selenium IDE stands for</p>
+      <input type="radio" id="mc" name="question5" value="1" />Selenium
+      Intialization Development Environment
+      <br />
+      <input type="radio" id="mc" name="question5" value="2" />Selenium
+      Interrelated Development Environment <br />
+      <input type="radio" id="mc" name="question5" value="3" />Selenium
+      Integrated Development Environment
+      <br />
+      <input type="radio" id="mc" name="question5" value="4" />Selenium
+      Information Development Environment
+      <br />
+
+      <p>The Selenium</p>
+      <input type="radio" id="mc" name="question6" value="1" />Provides
+      professional customer support
+      <br />
+      <input type="radio" id="mc" name="question6" value="2" />Test Reports are
+      generated automatically <br />
+      <input type="radio" id="mc" name="question6" value="3" />Comes with a
+      built-in object repository
+      <br />
+      <input type="radio" id="mc" name="question6" value="4" />Cannot access
+      elements outside of the web application under test
+      <br />
+
+      <p>Select the language which is supported by The Selenium Web Driver.</p>
+      <input type="radio" id="mc" name="question7" value="Perl" />Perl
+      <br />
+      <input type="radio" id="mc" name="question7" value="Sql" />Sql <br />
+      <input type="radio" id="mc" name="question7" value="ASP" />ASP
+      <br />
+      <input type="radio" id="mc" name="question7" value="Cobol" />Cobol
+      <br />
+
+      <p>
+        Select the command that will NOT wait for a new page to load before
+        moving onto the next command.
+      </p>
+      <input
+        type="radio"
+        id="mc"
+        name="question8"
+        value="clickAndWait"
+      />clickAndWait
+      <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question8"
+        value="selectAndType"
+      />selectAndType <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question8"
+        value="typeAndWait"
+      />typeAndWai
+      <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question8"
+        value="selectAndWait"
+      />selectAndWait
+      <br />
+
+      <p>What is TestNG?</p>
+      <input
+        type="radio"
+        id="mc"
+        name="question9"
+        value="TestNextGeneration"
+      />TestNextGeneration
+      <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question9"
+        value="TestNewGenerlization"
+      />TestNewGenerlization <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question9"
+        value="TestNewGeneration"
+      />TestNewGeneration
+      <br />
+      <input
+        type="radio"
+        id="mc"
+        name="question9"
+        value="TestNextGenerations"
+      />TestNextGenerations
+      <br />
+
+      <p>
+        Select the variation which locates elements by the value of the “name”
+        attribute in Web driver Selenium
+      </p>
+      <input type="radio" id="mc" name="question10" value="1" />By.name
+      <br />
+      <input type="radio" id="mc" name="question10" value="2" />By.nametag
+      <br />
+      <input type="radio" id="mc" name="question10" value="3" />By.tagname
+      <br />
+      <input type="radio" id="mc" name="question10" value="4" />By.nametags
+      <br />
+
+      <p>
+        Which method is used when you want to verify whether a certain check
+        box, radio button, or option in a drop-down box is selected in Web
+        driver Selenium
+      </p>
+      <input type="radio" id="mc" name="question11" value="1" />is_Selected()
+      <br />
+      <input type="radio" id="mc" name="question11" value="2" />isSelect()
+      <br />
+      <input type="radio" id="mc" name="question11" value="3" />isSelected()
+      <br />
+      <input type="radio" id="mc" name="question11" value="4" />is_Select()
+      <br />
+
+      <p>
+        <input type="button" id="button" value="Finish" onclick="check()" />
+      </p>
+    </form>
+    <div id="after_submit">
+      <p id="message"></p>
+      <p id="number_correct"></p>
+      <img id="pictures" />
+    </div>
+  </body>
+</html>
